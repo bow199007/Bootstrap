@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-面板</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--基础面板-->
+    <div class="panel panel-default">
+        <div class="panel-heading">面板标题</div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="line"></div>
+    <!--标题-->
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>h3标题面板</h3></div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="line"></div>
+    <!--脚注-->
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>h3标题面板</h3></div>
+        <div class="panel-body">面板文本</div>
+        <div class="panel-footer">脚注内容</div>
+    </div>
+    <div class="line"></div>
+    <!--情境，脚注不会从情境效果中继承颜色-->
+    <div class="panel panel-primary">
+        <div class="panel-heading"><h3>panel-primary</h3></div>
+        <div class="panel-body">面板文本</div>
+        <div class="panel-footer">脚注内容</div>
+    </div>
+    <div class="panel panel-success">
+        <div class="panel-heading">panel-success</div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="panel panel-info">
+        <div class="panel-heading">panel-info</div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="panel panel-warning">
+        <div class="panel-heading">panel-warning</div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="panel panel-danger">
+        <div class="panel-heading">panel-danger</div>
+        <div class="panel-body">面板文本</div>
+    </div>
+    <div class="line"></div>
+    <!--带表格的面板-->
+    <div class="panel panel-default">
+        <div class="panel-heading">带表格的面板</div>
+        <div class="panel-body">面板文本panel-body</div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>phf</td>
+                <td>女</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>zyb</td>
+                <td>女</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>hzq</td>
+                <td>女</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--没有panel-body的样式-->
+    <div class="panel panel-default">
+        <div class="panel-heading">带表格的面板</div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>phf</td>
+                <td>女</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>zyb</td>
+                <td>女</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>hzq</td>
+                <td>女</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="line"></div>
+    <!--带列表组的面板-->
+    <div class="panel panel-default">
+        <div class="panel-heading">带列表组的面板</div>
+        <ul class="list-group">
+            <li class="list-group-item">1</li>
+            <li class="list-group-item">2</li>
+            <li class="list-group-item">3</li>
+            <li class="list-group-item">4</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

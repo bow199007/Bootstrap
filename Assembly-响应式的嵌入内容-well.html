@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-嵌入内容</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--不需要为 <iframe> 元素设置 frameborder="0" 属性-->
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="Assembly-Button.html" class="embed-responsive-item"></iframe>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe src="Assembly-Nav.html" class="embed-responsive-item"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <!--well-->
+    <div class="well">文本背景显示会有内嵌的效果</div>
+    <div class="well well-lg">well-lg</div>
+    <div class="well well-sm">well-sm</div>
+</div>
+
+</body>
+</html>

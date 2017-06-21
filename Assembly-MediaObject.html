@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-多媒体对象</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="media">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="images/img1.jpg" alt="..." style="width:100px;">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">媒体头部</h4>
+            <p>默认样式的媒体对象组件允许在一个内容块的左边或右边展示一个多媒体内容（图像、视频、音频）。</p>
+            <p>.pull-left 和 .pull-right 这两个类以前也曾经被用在了媒体组件上，但是，从 v3.3.0 版本开始，他们就不再被建议使用了。.media-left 和 .media-right 替代了他们，不同之处是，在 html 结构中， .media-right 应当放在 .media-body 的后面。</p>
+            <p>图片或其他媒体类型可以顶部、中部或底部对齐。默认是顶部对齐。</p>
+            <p>用一点点额外的标记，就能在列表内使用媒体对象组件（对评论或文章列表很有用）。</p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <!--对齐-->
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img class="media-object" src="images/img1.jpg" alt="..." style="width:100px;">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">media-middle</h4>
+            <p>默认样式的媒体对象组件允许在一个内容块的左边或右边展示一个多媒体内容（图像、视频、音频）。</p>
+            <p>.pull-left 和 .pull-right 这两个类以前也曾经被用在了媒体组件上，但是，从 v3.3.0 版本开始，他们就不再被建议使用了。.media-left 和 .media-right 替代了他们，不同之处是，在 html 结构中， .media-right 应当放在 .media-body 的后面。</p>
+            <p>图片或其他媒体类型可以顶部、中部或底部对齐。默认是顶部对齐。</p>
+            <p>用一点点额外的标记，就能在列表内使用媒体对象组件（对评论或文章列表很有用）。</p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <!--底部对齐-->
+    <div class="media">
+        <div class="media-left media-bottom">
+            <a href="#">
+                <img class="media-object" src="images/img1.jpg" alt="..." style="width:100px;">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">media-bottom</h4>
+            <p>默认样式的媒体对象组件允许在一个内容块的左边或右边展示一个多媒体内容（图像、视频、音频）。</p>
+            <p>.pull-left 和 .pull-right 这两个类以前也曾经被用在了媒体组件上，但是，从 v3.3.0 版本开始，他们就不再被建议使用了。.media-left 和 .media-right 替代了他们，不同之处是，在 html 结构中， .media-right 应当放在 .media-body 的后面。</p>
+            <p>图片或其他媒体类型可以顶部、中部或底部对齐。默认是顶部对齐。</p>
+            <p>用一点点额外的标记，就能在列表内使用媒体对象组件（对评论或文章列表很有用）。</p>
+        </div>
+    </div>
+    <div class="line"></div>
+    <!--多媒体列表，类似博客留言回复-->
+    <ul class="media-list">
+        <li class="media">
+            <!--第一层-->
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="images/img1.jpg" alt="..." style="width:100px;">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">media-bottom</h4>
+                <p>默认样式的媒体对象组件允许在一个内容块的左边或右边展示一个多媒体内容（图像、视频、音频）。</p>
+                <!--第二层 1-->
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="images/img2.jpg" alt="..." style="width:100px;">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">media-bottom</h4>
+                        <p>.pull-left 和 .pull-right 这两个类以前也曾经被用在了媒体组件上，但是，从 v3.3.0 版本开始，他们就不再被建议使用了。.media-left 和 .media-right 替代了他们，不同之处是，在 html 结构中， .media-right 应当放在 .media-body 的后面。</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object" src="images/img1.jpg" alt="..." style="width:100px;">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">media-bottom</h4>
+                                <p>图片或其他媒体类型可以顶部、中部或底部对齐。默认是顶部对齐。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--第二层 2-->
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="images/img3.jpg" alt="..." style="width:100px;">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">media-bottom</h4>
+                        <p>.pull-left 和 .pull-right 这两个类以前也曾经被用在了媒体组件上，但是，从 v3.3.0 版本开始，他们就不再被建议使用了。.media-left 和 .media-right 替代了他们，不同之处是，在 html 结构中， .media-right 应当放在 .media-body 的后面。</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

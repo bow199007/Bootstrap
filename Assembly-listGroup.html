@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-列表组</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--基本实例 list-group-->
+    <ul class="list-group">
+        <li class="list-group-item">基本实例</li>
+        <li class="list-group-item">item2</li>
+        <li class="list-group-item">item3</li>
+        <li class="list-group-item">item4</li>
+        <li class="list-group-item">item5</li>
+    </ul>
+    <div class="line"></div>
+    <!--向列表组添加徽章-->
+    <ul class="list-group">
+        <li class="list-group-item">向列表组添加徽章</li>
+        <li class="list-group-item">item2</li>
+        <li class="list-group-item">
+            <span class="badge">14</span>
+            item3
+        </li>
+        <li class="list-group-item">item4</li>
+        <li class="list-group-item">item5</li>
+    </ul>
+    <div class="line"></div>
+    <!--链接形式的列表组-->
+    <div class="list-group">
+        <a href="#" class="list-group-item">链接形式的列表组</a>
+        <a href="#" class="list-group-item">item2</a>
+        <a href="#" class="list-group-item">item3</a>
+        <a href="#" class="list-group-item">item4</a>
+        <a href="#" class="list-group-item">item5</a>
+    </div>
+    <div class="line"></div>
+    <!--添加禁用类-->
+    <div class="list-group">
+        <a href="#" class="list-group-item disabled">disabled</a>
+        <a href="#" class="list-group-item active">active</a>
+        <a href="#" class="list-group-item">item3</a>
+        <a href="#" class="list-group-item">item4</a>
+        <a href="#" class="list-group-item">item5</a>
+    </div>
+    <div class="line"></div>
+    <!--情境-->
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">list-group-item-success</a>
+                <a href="#" class="list-group-item list-group-item-info">list-group-item-info</a>
+                <a href="#" class="list-group-item list-group-item-warning">list-group-item-warning</a>
+                <a href="#" class="list-group-item list-group-item-danger">list-group-item-danger</a>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success">list-group-item-success</li>
+                <li class="list-group-item list-group-item-info">list-group-item-info</li>
+                <li class="list-group-item list-group-item-warning">list-group-item-warning</li>
+                <li class="list-group-item list-group-item-danger">list-group-item-danger</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

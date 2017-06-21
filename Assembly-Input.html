@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-输入框组</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--基本的输入框组-->
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-addon">.00</span>
+    </div>
+    <div class="line"></div>
+    <!--做一个邮箱地址的组合-->
+    <div class="input-group">
+        <span class="input-group-addon">Email</span>
+        <input type="text" value="" name="" placeholder="邮箱地址" class="form-control" aria-label=""/>
+        <span class="input-group-addon">@</span>
+        <div class="input-group-btn">
+            <button type="button" value="" name="" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                163.com
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">162.com</a></li>
+                <li><a href="#">qq.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

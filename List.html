@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>列表</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<!--列表-->
+<div class="container">
+    <!--无序列表-->
+    <ul>
+        <li>无序列表1</li>
+        <li>
+            无序列表2
+            <ul>
+                <li>无序列表二级</li>
+                <li>无序列表二级</li>
+            </ul>
+        </li>
+        <li>无序列表3</li>
+    </ul>
+    <div class="line"></div>
+    <!--有序列表-->
+    <ol>
+        <li>有序列表1</li>
+        <li>有序列表2</li>
+        <li>有序列表3</li>
+    </ol>
+    <div class="line"></div>
+    <!--无样式列表，只针对直接子元素-->
+    <ul class="list-unstyled">
+        <li>无样式列表1</li>
+        <li>
+            无样式列表2
+            <ul>
+                <li>无样式列表二级</li>
+                <li>无样式列表二级</li>
+            </ul>
+        </li>
+        <li>无样式列表3</li>
+    </ul>
+    <div class="line"></div>
+    <!--内联列表-->
+    <ul class="list-inline">
+        <li>内联列表1</li>
+        <li>内联列表2</li>
+        <li>内联列表3</li>
+    </ul>
+    <div class="line"></div>
+    <!--dl列表-->
+    <dl class="dl-horizontal">
+        <dt>标题Description lists</dt>
+        <dd>文本A description list is perfect for defining terms.</dd>
+        <dt>标题Euismod</dt>
+        <dd>文本Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.</dd>
+    </dl>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Resource-type" content="Document"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>组件-警告框</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <style>
+        <!--
+        .line{border-top:1px solid #afd9ee;margin:20px 0;}
+        -->
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-success">alert-success</div>
+    <div class="alert alert-info">alert-info</div>
+    <div class="alert alert-warning">alert-warning</div>
+    <div class="alert alert-danger">alert-danger</div>
+    <!--可关闭的警告框-->
+    <div class="alert alert-danger alert-dismissible">
+        <button class="close" aria-label="close" data-dismiss="alert">&times;</button><!--必须添加data-dismiss，js关闭功能才能起作用-->
+        可关闭的警告框
+    </div>
+    <!--带链接的警告框-->
+    <div class="alert alert-danger">
+        警告框 <a href="#" class="alert-link">警告框上的链接</a> 颜色匹配
+    </div>
+</div>
+
+</body>
+</html>
